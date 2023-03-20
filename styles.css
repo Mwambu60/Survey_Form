@@ -1,0 +1,28 @@
+body {
+  
+  background-color: rgba(27, 27, 50, 0.8);
+  background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.ti_tles{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.Child_Cont {
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 24px 90px 24px 90px;
+  margin: 60px 100px 24px 100px;
+  border-radius: 10px;
+}
+
+.col_lors {
+  color: #fff;
+}
