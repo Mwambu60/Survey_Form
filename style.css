@@ -1,13 +1,18 @@
 body {
-  
-  background-color: rgba(27, 27, 50, 0.8);
-  background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  background-color: rgba(27, 27, 50, 0.1);
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  color: #fff;
 }
 
-.ti_tles{
+.ti_tles {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,10 +24,13 @@ body {
 .Child_Cont {
   background-color: rgba(27, 27, 50, 0.8);
   padding: 24px 90px 24px 90px;
-  margin: 60px 100px 24px 100px;
+  margin: 10px 200px 24px 200px;
   border-radius: 10px;
 }
 
-.col_lors {
-  color: #fff;
+.btn {
+  width: 100%;
+  background: #37af65;
+  color: inherit;
+  cursor: pointer;
 }
